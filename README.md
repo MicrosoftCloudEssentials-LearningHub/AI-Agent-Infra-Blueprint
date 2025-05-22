@@ -1,2 +1,29 @@
-# AI-Agent-InfraStack-Setup
-This demonstration showcases the complete setup of the infrastructure required to build a generative AI agent using Azure AI Foundry and Azure OpenAI Service. This example is configured within a public network; however, please ensure you adapt the implementation to align with your specific use case and best practices of security, etc.
+# Blueprint for AI Agent Infrastructure Stack Implementation
+
+Costa Rica
+
+[![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com) 
+[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
+[brown9804](https://github.com/brown9804)
+
+Last updated: 2025-05-21
+
+----------
+
+> [!IMPORTANT]
+> Please note that `these demos are intended as a guide and are based on my personal experiences. For official guidance, support, or more detailed information, please refer to Microsoft's official documentation or contact Microsoft directly`: [Microsoft Sales and Support](https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME)
+
+<details>
+<summary><b>List of References </b> (Click to expand)</summary>
+
+</details>
+
+<details>
+<summary><b>Table of Content </b> (Click to expand)</summary>
+
+</details>
+
+<div align="center">
+  <h3 style="color: #4CAF50;">Total Visitors</h3>
+  <img src="https://profile-counter.glitch.me/brown9804/count.svg" alt="Visitor Count" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
