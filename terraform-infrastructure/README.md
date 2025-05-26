@@ -1,4 +1,4 @@
-# Azure Infrastructure Terraform Templates
+# Azure Infrastructure: <br/>  AI Agent - Terraform Templates 
 
 Costa Rica
 
@@ -12,7 +12,7 @@ Last updated: 2025-05-26
 > This approach focuses on `setting up the required infrastructure via Terraform`. It allows for source control of not only the solution code, connections, and setups `but also the infrastructure itself`.
 
 <div align="center">
-  <img src="" alt="Centered Image" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+  <img src="https://github.com/user-attachments/assets/d8b5e322-c601-4043-a35f-3b3b62cbf080" alt="Centered Image" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
 </div>
 
 ## Prerequisites
