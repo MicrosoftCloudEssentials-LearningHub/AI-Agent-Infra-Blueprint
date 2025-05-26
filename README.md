@@ -16,10 +16,17 @@ Last updated: 2025-05-26
 <details>
 <summary><b>List of References </b> (Click to expand)</summary>
 
+- [Azure AI Foundry: Your AI App and agent factory](https://azure.microsoft.com/en-us/blog/azure-ai-foundry-your-ai-app-and-agent-factory/)
+- [Microsoft Build 2025: The age of AI agents and building the open agentic web](https://blogs.microsoft.com/blog/2025/05/19/microsoft-build-2025-the-age-of-ai-agents-and-building-the-open-agentic-web/)
+- [Azure AI Foundry Agent Service documentation](https://learn.microsoft.com/en-us/azure/ai-services/agents/)
+
 </details>
 
 <details>
 <summary><b>Table of Content </b> (Click to expand)</summary>
+
+- [Overview](#overview)
+- [Important Considerations for Production Environment](#important-considerations-for-production-environment)
 
 </details>
 
@@ -27,16 +34,21 @@ Last updated: 2025-05-26
 
 > Below are the resources set up in Azure via Terraform. Please [follow this guide](./terraform-infrastructure/) to deploy the listed resources:
 
-1. Azure AI Foundry` Hub and Project`
-2. Azure AI Foundry connections (`using key or Entra authentication`)
-    - Azure `Open AI `service
+1. **Azure AI Foundry** `Hub and Project`
+2. **Azure AI Foundry connections** (`using key or Entra authentication`)
+    - Azure `Open AI` service
     - Azure `AI search` service
-3. Deploy gpt 4o-mini (or `any gpt model of your choice`)
-4. Deploy `text-embedding-ada-002`
-5. Azure AI `search index` created
-6. Below permissions assigned in Azure AI Foundry:
-    - `Azure AI Developer` permission for AI project/at resource group level
-    - `Cognitive services Open AI user` permission at the resource group level
+3. **Azure Infrastructure Components:**
+    - **Azure Key Vault**: Securely store and manage secrets, keys, and certificates.
+    - **Azure Storage Account**: Provides a scalable storage solution for AI-related data.
+    - **Resource Group**: Centralized management for deployed Azure resources.
+4. **Permissions assigned in Azure AI Foundry:**
+    - `Azure AI Developer` permission for AI project/resource group level.
+    - `Cognitive Services Open AI User` permission at resource group level.
+5. **Post-Provisioning Steps**:
+    - **Deploy GPT-4o-mini** (or `any GPT model of your choice`) 🡢 `AFTER provisioning Azure Open AI`.
+    - **Deploy text-embedding-ada-002** 🡢 `AFTER provisioning Azure Open AI` using the appropriate model deployment approach.
+    - **Create Azure AI Search Index** 🡢 `AFTER provisioning Azure AI Search`.
 
 ## Important Considerations for Production Environment
 
