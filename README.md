@@ -16,6 +16,10 @@ Last updated: 2025-05-26
 <details>
 <summary><b>List of References </b> (Click to expand)</summary>
 
+- [Azure AI Foundry: Your AI App and agent factory](https://azure.microsoft.com/en-us/blog/azure-ai-foundry-your-ai-app-and-agent-factory/)
+- [Microsoft Build 2025: The age of AI agents and building the open agentic web](https://blogs.microsoft.com/blog/2025/05/19/microsoft-build-2025-the-age-of-ai-agents-and-building-the-open-agentic-web/)
+- [Azure AI Foundry Agent Service documentation](https://learn.microsoft.com/en-us/azure/ai-services/agents/)
+
 </details>
 
 <details>
