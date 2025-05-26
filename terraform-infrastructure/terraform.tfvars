@@ -1,0 +1,8 @@
+subscription_id        = "<your_subscription_id>"
+resource_group_name    = "RG-ai-foundryx1"
+location               = "East US"
+storage_account_name   = "aiagentssabx1"
+openai_account_name    = "aoaibx1test"
+search_service_name    = "aisearchbx1test"
+developer_principal_id = "<your_developer_principal_id>"
+openai_user_object_id  = "<your_openai_user_object_id>"
