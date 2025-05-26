@@ -19,6 +19,10 @@ Last updated: 2025-05-26
 - [Azure AI Foundry: Your AI App and agent factory](https://azure.microsoft.com/en-us/blog/azure-ai-foundry-your-ai-app-and-agent-factory/)
 - [Microsoft Build 2025: The age of AI agents and building the open agentic web](https://blogs.microsoft.com/blog/2025/05/19/microsoft-build-2025-the-age-of-ai-agents-and-building-the-open-agentic-web/)
 - [Azure AI Foundry Agent Service documentation](https://learn.microsoft.com/en-us/azure/ai-services/agents/)
+- [What are the resource providers for Azure services](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-services-resource-providers)
+- [Role-based access control for Azure OpenAI in Azure AI Foundry Models](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/role-based-access-control)
+- [Quickstart: Deploy Azure AI Search service using Terraform](https://learn.microsoft.com/en-us/azure/search/search-get-started-terraform)
+- [azurerm_ai_foundry_project](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/ai_foundry_project)
 
 </details>
 
