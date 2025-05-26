@@ -43,6 +43,26 @@ Templates structure:
 - terraform.tfvars `(Variable values)`: This file contains the actual values for the variables defined in `variables.tf`. By separating variable definitions and values, you can easily switch between different sets of values for different environments (e.g., development, staging, production) without changing the main configuration files.
 - outputs.tf `(Output values)`: This file defines the output values that Terraform should return after applying the configuration. Outputs are useful for displaying information about the resources created, such as IP addresses, resource IDs, and other important details. They can also be used as inputs for other Terraform configurations or scripts.
 
+## Finding `principal_id` Using Azure CLI
+
+> The `principal_id` is typically the Object ID of a user, group, or service principal in Azure Entra ID (former AAD). You can find this ID in the Azure portal or by using the Azure CLI.
+
+Get the Object ID of list of Users:
+
+```sh
+az ad user list --query "[].{Name:displayName, ObjectId:id, Email:userPrincipalName}" --output table
+```
+
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/c3f57b8c-025b-4784-9de6-d943311d9b04" />
+
+
+Here is an example value for `admin_principal_id` which is Object ID you retrieved.
+
+```hcl
+admin_principal_id = "12345678-1234-1234-1234-1234567890ab"
+```
+
+
 ## How to execute it 
 
 ```mermaid 
