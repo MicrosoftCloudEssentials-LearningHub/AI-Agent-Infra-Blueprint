@@ -23,6 +23,21 @@ Last updated: 2025-05-26
 
 </details>
 
+## Overview 
+
+> Below are the resources set up in Azure via Terraform. Please [follow this guide](./terraform-infrastructure/) to deploy the listed resources:
+
+1. Azure AI Foundry` Hub and Project`
+2. Azure AI Foundry connections (`using key or Entra authentication`)
+    - Azure `Open AI `service
+    - Azure `AI search` service
+3. Deploy gpt 4o-mini (or `any gpt model of your choice`)
+4. Deploy `text-embedding-ada-002`
+5. Azure AI `search index` created
+6. Below permissions assigned in Azure AI Foundry:
+    - `Azure AI Developer` permission for AI project/at resource group level
+    - `Cognitive services Open AI user` permission at the resource group level
+
 ## Important Considerations for Production Environment
 
 <details>
