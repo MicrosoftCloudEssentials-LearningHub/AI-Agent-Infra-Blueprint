@@ -9,7 +9,7 @@ Last updated: 2025-05-26
 
 ----------
 
->  This approach focuses on `setting up the required infrastructure via Terraform`. It allows for source control of not only the solution code, connections, and setups `but also the infrastructure itself`.
+> This approach focuses on `setting up the required infrastructure via Terraform`. It allows for source control of not only the solution code, connections, and setups `but also the infrastructure itself`.
 
 <div align="center">
   <img src="" alt="Centered Image" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
@@ -20,8 +20,8 @@ Last updated: 2025-05-26
 - An `Azure subscription is required`. All other resources, including instructions for creating a Resource Group, are provided in this workshop.
 - `Contributor role assigned or any custom role that allows`: access to manage all resources, and the ability to deploy resources within subscription.
 - Please ensure that:
-    -  [Terraform is installed on your local machine](https://developer.hashicorp.com/terraform/tutorials/azure-get-started/install-cli#install-terraform).
-    -  [Install the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) to work with both Terraform and Azure commands.
+  - [Terraform is installed on your local machine](https://developer.hashicorp.com/terraform/tutorials/azure-get-started/install-cli#install-terraform).
+  - [Install the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) to work with both Terraform and Azure commands.
 
 ## Overview 
 
@@ -55,13 +55,11 @@ az ad user list --query "[].{Name:displayName, ObjectId:id, Email:userPrincipalN
 
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/c3f57b8c-025b-4784-9de6-d943311d9b04" />
 
-
 Here is an example value for `admin_principal_id` which is Object ID you retrieved.
 
 ```hcl
 admin_principal_id = "12345678-1234-1234-1234-1234567890ab"
 ```
-
 
 ## How to execute it 
 
