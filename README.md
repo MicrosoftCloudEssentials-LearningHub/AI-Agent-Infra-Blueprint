@@ -38,6 +38,10 @@ Last updated: 2025-05-26
 
 > Below are the resources set up in Azure via Terraform. Please [follow this guide](./terraform-infrastructure/) to deploy the listed resources:
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/7aed9e41-cf9a-4c34-a49c-94a55236bffc" alt="Centered Image" style="border: 2px solid #4CAF50; border-radius: 5px; padding: 5px;"/>
+</div>
+
 1. **Azure AI Foundry** `Hub and Project`
 2. **Azure AI Foundry connections** (`using key or Entra authentication`)
     - Azure `Open AI` service
