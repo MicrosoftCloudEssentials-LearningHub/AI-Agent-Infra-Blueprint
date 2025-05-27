@@ -10,6 +10,9 @@ Last updated: 2025-05-26
 
 ----------
 
+> [!TIP]
+> Please `clone/download` this repository to use this configuration as a blueprint.
+
 > [!IMPORTANT]
 > This example is based on a `public network site and is intended for demonstration purposes only`. It showcases how several Azure resources can work together to achieve the desired result. Consider the section below about [Important Considerations for Production Environment](#important-considerations-for-production-environment).
 
