@@ -26,6 +26,7 @@ Last updated: 2025-05-26
 - [Role-based access control for Azure OpenAI in Azure AI Foundry Models](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/role-based-access-control)
 - [Quickstart: Deploy Azure AI Search service using Terraform](https://learn.microsoft.com/en-us/azure/search/search-get-started-terraform)
 - [azurerm_ai_foundry_project](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/ai_foundry_project)
+- [azure ai agent](https://github.com/nileshvj2/azure_ai_agent_workshop) - SMC workshop
 
 </details>
 
