@@ -1,4 +1,4 @@
-# Blueprint for AI Agent Infrastructure Stack Implementation
+# AI Agent Implementantion <br/> Infrastructure Stack Blueprint - Guide
 
 Costa Rica
 
@@ -11,7 +11,7 @@ Last updated: 2025-05-26
 ----------
 
 > [!IMPORTANT]
-> Please note that `these demos are intended as a guide and are based on my personal experiences. For official guidance, support, or more detailed information, please refer to Microsoft's official documentation or contact Microsoft directly`: [Microsoft Sales and Support](https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME)
+> This example is based on a `public network site and is intended for demonstration purposes only`. It showcases how several Azure resources can work together to achieve the desired result. Consider the section below about [Important Considerations for Production Environment](#important-considerations-for-production-environment).
 
 <details>
 <summary><b>List of References </b> (Click to expand)</summary>
@@ -114,6 +114,9 @@ Last updated: 2025-05-26
 > Implement a disaster recovery plan to ensure business continuity in case of failures. Use Azure Site Recovery and backup solutions to protect your data and applications.
 
 </details>
+
+> [!NOTE]
+> Please note that `these demos are intended as a guide and are based on my personal experiences. For official guidance, support, or more detailed information, please refer to Microsoft's official documentation or contact Microsoft directly`: [Microsoft Sales and Support](https://support.microsoft.com/contactus?ContactUsExperienceEntryPointAssetId=S.HP.SMC-HOME)
 
 <div align="center">
   <h3 style="color: #4CAF50;">Total Visitors</h3>
