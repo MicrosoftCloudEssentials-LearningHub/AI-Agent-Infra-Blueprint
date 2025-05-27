@@ -52,7 +52,7 @@ Last updated: 2025-05-26
     - **Resource Group**: Centralized management for deployed Azure resources.
 4. **Permissions assigned in Azure AI Foundry:**
     - `Azure AI Developer` permission for AI project/resource group level.
-    - `Cognitive Services Open AI User` permission at resource group level.
+    - `Cognitive Services OpenAI User` permission at resource group level.
 5. **Post-Provisioning Steps**:
     - **Deploy GPT-4o-mini** (or `any GPT model of your choice`) 🡢 `AFTER provisioning Azure Open AI`.
     - **Deploy text-embedding-ada-002** 🡢 `AFTER provisioning Azure Open AI` using the appropriate model deployment approach.
