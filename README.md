@@ -1,4 +1,4 @@
-# AI Agent Implementantion <br/> Infrastructure Stack Blueprint - Guide
+# Azure AI Agent Implementantion <br/> Infrastructure Stack Blueprint - Guide
 
 Costa Rica
 
