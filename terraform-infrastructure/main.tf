@@ -60,7 +60,7 @@ resource "azurerm_ai_services" "aiserviceaccount" {
 
 // AI Foundry
 resource "azurerm_ai_foundry" "aifoundry" {
-  name                = "aifoundrytestbx1"
+  name                = var.aifoundry_name
   location            = azurerm_ai_services.aiserviceaccount.location
   resource_group_name = azurerm_ai_services.aiserviceaccount.resource_group_name
   storage_account_id  = azurerm_storage_account.example.id
@@ -74,7 +74,7 @@ resource "azurerm_ai_foundry" "aifoundry" {
 
 // AI Foundry Project 
 resource "azurerm_ai_foundry_project" "aiproject" {
-  name               = "projectnametestbx1"
+  name               = var.aifoundryproject_name
   location           = azurerm_ai_foundry.aifoundry.location
   ai_services_hub_id = azurerm_ai_foundry.aifoundry.id
 
