@@ -19,6 +19,11 @@ variable "keyvault_name" {
   type        = string
 }
 
+variable "aiservices_name" {
+  description = "The name of the AI services account"
+  type        = string
+}
+
 variable "storage_account_name" {
   description = "The name of the storage account"
   type        = string
