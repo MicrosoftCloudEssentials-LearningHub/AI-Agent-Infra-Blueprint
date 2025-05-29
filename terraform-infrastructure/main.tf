@@ -17,7 +17,7 @@ resource "azurerm_resource_group" "rg" {
 
 // Key Vault 
 resource "azurerm_key_vault" "example" {
-  name                = "aiagentkvtestbx1"
+  name                = var.keyvault_name
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
   tenant_id           = data.azurerm_client_config.example.tenant_id
