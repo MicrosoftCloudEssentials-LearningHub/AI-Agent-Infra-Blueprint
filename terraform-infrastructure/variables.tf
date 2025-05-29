@@ -24,6 +24,16 @@ variable "aiservices_name" {
   type        = string
 }
 
+variable "aifoundry_name" {
+  description = "The name of the AI Foundry Hub"
+  type        = string
+}
+
+variable "aifoundryproject_name" {
+  description = "The name of the AI Foundry Project"
+  type        = string
+}
+
 variable "storage_account_name" {
   description = "The name of the storage account"
   type        = string
