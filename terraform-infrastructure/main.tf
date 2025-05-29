@@ -52,7 +52,7 @@ resource "azurerm_storage_account" "example" {
 
 // AI Services Account 
 resource "azurerm_ai_services" "aiserviceaccount" {
-  name                = "aiservicesbx1test"
+  name                = var.aiservices_name
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
   sku_name            = "S0"
