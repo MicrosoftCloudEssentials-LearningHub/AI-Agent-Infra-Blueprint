@@ -16,6 +16,10 @@ Last updated: 2025-07-17
 > [!IMPORTANT]
 > This example is based on a `public network site and is intended for demonstration purposes only`. It showcases how several Azure resources can work together to achieve the desired result. Consider the section below about [Important Considerations for Production Environment](#important-considerations-for-production-environment).
 
+<img width="1194" height="565" alt="image" src="https://github.com/user-attachments/assets/c8730a94-df95-4682-8b82-483c50194973" />
+
+From [Ignite 2024: Announcing the Azure AI Foundry SDK](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/ignite-2024-announcing-the-azure-ai-foundry-sdk/4295862)
+
 <details>
 <summary><b>List of References </b> (Click to expand)</summary>
 
