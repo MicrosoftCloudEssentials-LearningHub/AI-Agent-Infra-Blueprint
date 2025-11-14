@@ -2,7 +2,6 @@
 
 Costa Rica
 
-[![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com) 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [brown9804](https://github.com/brown9804)
 
@@ -11,7 +10,24 @@ Last updated: 2025-10-03
 ----------
 
 > `How we move from basic coding all the way to AI agents?`
->
+
+```mermaid
+flowchart LR
+    A[Scripting: Line-by-line instructions] --> B[Machine Learning: Packages + statistical foundations]
+    B --> C[LLMs: Reasoning, understanding, human-like responses]
+    C --> D[Agents: LLMs with ability to act]
+
+    %% Styling
+    classDef step fill:#4a90e2,stroke:#333,stroke-width:2px,color:#fff,font-weight:bold;
+    class A,B,C,D step;
+
+    %% Extra notes
+    A:::step
+    B:::step
+    C:::step
+    D:::step
+```
+
 > - We all `start with scripting`, no matter the language, it’s the first step. `Simple/complex instructions, written line by line`, to get something done
 > - Then comes `machine learning`. At this stage, we’re not reinventing the math, we’re `leveraging powerful packages built on deep statistical and mathematical foundations.` These tools let us `automate smarter processes, like reviewing claims with predictive analytics. You’re not just coding anymore; you’re building systems that learn and adapt.`
 > - `LLMs`. This is what most people mean when they say `AI.` Think of `yourself as the architect, and the LLM as your strategic engine. You can plug into it via an API, a key, or through integrated services. It’s not just about automation, it’s about reasoning, understanding, and generating human-like responses.`
