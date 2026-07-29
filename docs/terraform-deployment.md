@@ -2,7 +2,7 @@
 
 The Terraform configuration requires Terraform `>= 1.8, < 2.0`, AzureRM `~> 4.30.0`, and AzureAD `~> 2.38.0`. It creates the resource group, supporting services, AI Foundry hub/project, and demonstration role assignments.
 
-![Terraform deployment guidance](https://github.com/user-attachments/assets/d8b5e322-c601-4043-a35f-3b3b62cbf080){ loading=lazy }
+![Terraform deployment guidance](assets/images/terraform-infrastructure.png){ loading=lazy }
 
 ## Configure variables
 

@@ -5,7 +5,7 @@ This demonstration provisions the Azure foundation for a generative AI agent usi
 !!! danger
     This implementation is configured for a public network demonstration. Before any production use, redesign access, identity, data protection, monitoring, cost controls, and disaster recovery for your organization's requirements.
 
-![Azure AI Foundry agent architecture](https://github.com/user-attachments/assets/c8730a94-df95-4682-8b82-483c50194973){ loading=lazy }
+![Azure AI Foundry agent architecture](assets/images/ai-foundry-overview.png){ loading=lazy }
 
 ```mermaid
 flowchart LR

@@ -2,7 +2,7 @@
 
 The blueprint creates an Azure AI Foundry hub and project, then connects that project to Azure OpenAI and Azure AI Search while supplying supporting Key Vault and Storage resources. Terraform also assigns the principal IDs supplied as variables to the roles used by the demonstration.
 
-![Blueprint resource overview](https://github.com/user-attachments/assets/7aed9e41-cf9a-4c34-a49c-94a55236bffc){ loading=lazy }
+![Blueprint resource overview](assets/images/architecture-overview.png){ loading=lazy }
 
 ## Resource topology
 
